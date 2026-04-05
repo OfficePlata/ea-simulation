@@ -6,14 +6,14 @@
   <title>Revive EA 収益シミュレーター</title>
   
   <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  
+  <script src="https://cdn.tailwindcss.com" data-cfasync="false"></script>
+
   <!-- React & ReactDOM -->
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js" data-cfasync="false"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" data-cfasync="false"></script>
+
   <!-- Babel for in-browser JSX parsing -->
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js" data-cfasync="false"></script>
 </head>
 <body class="bg-slate-50 font-sans text-slate-800">
   <div id="root"></div>
@@ -162,7 +162,7 @@
                   <Info className="w-5 h-5 flex-shrink-0 mt-0.5 text-blue-600" />
                   <div>
                     <p className="font-bold mb-1">利益の計算ロジック</p>
-                    <p>両建てにより資金は減らず、**「獲得したボーナス額」から「取引手数料（約3万円）」を引いた額**が、実質的な1サイクルあたりの利益となります。</p>
+                    <p>両建てにより資金は減らず、<strong>「獲得したボーナス額」から「取引手数料（約3万円）」を引いた額</strong>が、実質的な1サイクルあたりの利益となります。</p>
                   </div>
                 </div>
               </div>
